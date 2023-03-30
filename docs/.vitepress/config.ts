@@ -18,7 +18,7 @@ export default defineConfig({
       level: "deep",
       label: "本页目录",
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/ahua666" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/ahua666/StarNavigation" }],
     footer: {
       message: 'Github开源项目',
       copyright: 'Copyright © 2023 Star'
