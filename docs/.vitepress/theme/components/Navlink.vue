@@ -37,6 +37,12 @@ const datas: any = [{
       desc: '需要内部授权码'
     },
     {
+      icon:'https://assets.website-files.com/60de2701a7b28f308f619d3d/62f5b1528499d8e6b3d02447_Gamma_V1_Icon_only_4.gif',
+      title:'Gamma (PPT)',
+      link:'https://gamma.app/',
+      desc: '公测免费使用'
+    },
+    {
       icon: 'https://www.midjourney.com/apple-touch-icon.png',
       title: 'Midjourney（绘画）',
       link: 'https://www.midjourney.com'
