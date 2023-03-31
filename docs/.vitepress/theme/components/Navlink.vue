@@ -53,9 +53,9 @@ const datas: any = [{
         },
         {
             icon: 'https://neveragain.allstatics.com/2019/assets/icon/logo/edraw-mindmaster-square.svg',
-            title: 'mindmaster (流程图)',
+            title: 'mindmaster',
             link: 'https://www.mindmaster.io/',
-            desc: '亿图思维'
+            desc: '亿图思维(流程图)，需付费(可以免费试用)'
         },
         {
             icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
