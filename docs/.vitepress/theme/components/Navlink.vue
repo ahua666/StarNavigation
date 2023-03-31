@@ -5,14 +5,17 @@
       <div class="flink-desc">{{ item.desc }}</div>
       <div class="flink-list">
         <div class="flink-list-item" v-for="(item2, index2) in item.items" :key="index2"><a :href="item2.link"
-            rel="external nofollow" :title="item2.title" target="_blank"><img class="flink-avatar entered loaded"
-              :data-lazy-src="item2.icon"
-              onerror="this.onerror=null;this.src='https://bu.dusays.com/2023/03/03/6401a7902b8de.png'" alt="chatGPT"
-              data-ll-status="loaded" :src="item2.icon">
-            <div class="img-alt is-center">{{ item2.title }}</div>
-            <div class="flink-item-info"><span class="flink-item-name">{{ item2.title }}</span><span
-                class="flink-item-desc" :title="item2.desc">{{ item2.desc }}</span></div>
-          </a></div>
+                                                                                            rel="external nofollow"
+                                                                                            :title="item2.title"
+                                                                                            target="_blank"><img
+            class="flink-avatar entered loaded"
+            :data-lazy-src="item2.icon"
+            onerror="this.onerror=null;this.src='https://bu.dusays.com/2023/03/03/6401a7902b8de.png'" alt="chatGPT"
+            data-ll-status="loaded" :src="item2.icon">
+          <div class="img-alt is-center">{{ item2.title }}</div>
+          <div class="flink-item-info"><span class="flink-item-name">{{ item2.title }}</span><span
+              class="flink-item-desc" :title="item2.desc">{{ item2.desc }}</span></div>
+        </a></div>
       </div>
 
     </div>
@@ -37,9 +40,9 @@ const datas: any = [{
       desc: '需要内部授权码'
     },
     {
-      icon:'https://assets.website-files.com/60de2701a7b28f308f619d3d/62f5b1528499d8e6b3d02447_Gamma_V1_Icon_only_4.gif',
-      title:'Gamma (PPT)',
-      link:'https://gamma.app/',
+      icon: 'https://assets.website-files.com/60de2701a7b28f308f619d3d/62f5b1528499d8e6b3d02447_Gamma_V1_Icon_only_4.gif',
+      title: 'Gamma (PPT)',
+      link: 'https://gamma.app/',
       desc: '公测免费使用'
     },
     {
@@ -48,83 +51,88 @@ const datas: any = [{
       link: 'https://www.midjourney.com'
     },
     {
+      icon:'https://www.mindmaster.io/images/static/logo-edraw-mindmaster.svg',
+      title: '亿图思维',
+      link: 'https://www.mindmaster.io/'
+    },
+    {
       icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
       title: 'Beautiful.ai（PPT）',
       link: 'https://www.beautiful.ai'
     }
   ]
-},{
-      title: 'Vue 生态',
-      desc:'一系列支持库和工具，可帮助开发者更快速、高效地构建现代化的Vue应用程序。',
-      items: [
-        {
-          icon: 'https://cn.vuejs.org/logo.svg',
-          title: 'Vue 3',
-          desc: '渐进式 JavaScript 框架',
-          link: 'https://cn.vuejs.org'
-        },
-        {
-          icon: 'https://cn.vuejs.org/logo.svg',
-          title: 'Vue 2',
-          desc: '渐进式 JavaScript 框架',
-          link: 'https://v2.cn.vuejs.org'
-        },
-        {
-          icon: 'https://cn.vuejs.org/logo.svg',
-          title: 'Vue Router',
-          desc: 'Vue.js 的官方路由\n为 Vue.js 提供富有表现力、可配置的、方便的路由',
-          link: 'https://router.vuejs.org/zh'
-        },
-        {
-          icon: 'https://pinia.vuejs.org/logo.svg',
-          title: 'Pinia',
-          desc: '符合直觉的 Vue.js 状态管理库',
-          link: 'https://pinia.vuejs.org/zh'
-        },
-        {
-          icon: 'https://nuxt.com/icon.png',
-          title: 'Nuxt.js',
-          desc: '一个基于 Vue.js 的通用应用框架',
-          link: 'https://nuxt.com'
-        },
-        {
-          icon: 'https://vueuse.org/favicon.svg',
-          title: 'VueUse',
-          desc: 'Vue Composition API 的常用工具集',
-          link: 'https://vueuse.org'
-        },
-        {
-          icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
-          title: 'Element Plus',
-          desc: '基于 Vue 3，面向设计师和开发者的组件库',
-          link: 'https://element-plus.org'
-        },
-        {
-          icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
-          title: 'Ant Design Vue',
-          desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
-          link: 'https://antdv.com'
-        },
-        {
-          icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
-          title: 'Vant',
-          desc: '轻量、可定制的移动端 Vue 组件库',
-          link: 'https://vant-ui.github.io/vant'
-        },
-        {
-          icon: 'https://webapp.didistatic.com/static/webapp/shield/Cube-UI_logo.ico',
-          title: 'Cube UI',
-          desc: '基于 Vue.js 实现的精致移动端组件库',
-          link: 'https://didi.github.io/cube-ui'
-        },
-        {
-          icon: 'https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png',
-          title: 'NutUI',
-          desc: '京东风格的轻量级移动端组件库',
-          link: 'https://nutui.jd.com'
-        }
-      ]
-    },]
+}, {
+  title: 'Vue 生态',
+  desc: '一系列支持库和工具，可帮助开发者更快速、高效地构建现代化的Vue应用程序。',
+  items: [
+    {
+      icon: 'https://cn.vuejs.org/logo.svg',
+      title: 'Vue 3',
+      desc: '渐进式 JavaScript 框架',
+      link: 'https://cn.vuejs.org'
+    },
+    {
+      icon: 'https://cn.vuejs.org/logo.svg',
+      title: 'Vue 2',
+      desc: '渐进式 JavaScript 框架',
+      link: 'https://v2.cn.vuejs.org'
+    },
+    {
+      icon: 'https://cn.vuejs.org/logo.svg',
+      title: 'Vue Router',
+      desc: 'Vue.js 的官方路由\n为 Vue.js 提供富有表现力、可配置的、方便的路由',
+      link: 'https://router.vuejs.org/zh'
+    },
+    {
+      icon: 'https://pinia.vuejs.org/logo.svg',
+      title: 'Pinia',
+      desc: '符合直觉的 Vue.js 状态管理库',
+      link: 'https://pinia.vuejs.org/zh'
+    },
+    {
+      icon: 'https://nuxt.com/icon.png',
+      title: 'Nuxt.js',
+      desc: '一个基于 Vue.js 的通用应用框架',
+      link: 'https://nuxt.com'
+    },
+    {
+      icon: 'https://vueuse.org/favicon.svg',
+      title: 'VueUse',
+      desc: 'Vue Composition API 的常用工具集',
+      link: 'https://vueuse.org'
+    },
+    {
+      icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
+      title: 'Element Plus',
+      desc: '基于 Vue 3，面向设计师和开发者的组件库',
+      link: 'https://element-plus.org'
+    },
+    {
+      icon: 'https://www.antdv.com/assets/logo.1ef800a8.svg',
+      title: 'Ant Design Vue',
+      desc: 'Ant Design 的 Vue 实现，开发和服务于企业级后台产品',
+      link: 'https://antdv.com'
+    },
+    {
+      icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
+      title: 'Vant',
+      desc: '轻量、可定制的移动端 Vue 组件库',
+      link: 'https://vant-ui.github.io/vant'
+    },
+    {
+      icon: 'https://webapp.didistatic.com/static/webapp/shield/Cube-UI_logo.ico',
+      title: 'Cube UI',
+      desc: '基于 Vue.js 实现的精致移动端组件库',
+      link: 'https://didi.github.io/cube-ui'
+    },
+    {
+      icon: 'https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png',
+      title: 'NutUI',
+      desc: '京东风格的轻量级移动端组件库',
+      link: 'https://nutui.jd.com'
+    }
+  ]
+},]
 </script>
 
 <style>
@@ -296,7 +304,7 @@ const datas: any = [{
   color: var(--star-secondtext);
 }
 
-.flink-list>.flink-list-item a .img-alt {
+.flink-list > .flink-list-item a .img-alt {
   display: none;
 }
 
@@ -306,14 +314,14 @@ const datas: any = [{
   text-align: center;
 }
 
-.flink-list>.flink-list-item a .flink-item-desc {
+.flink-list > .flink-list-item a .flink-item-desc {
   display: block;
   padding: 4px 10px 0px 0px;
   height: 50px;
   font-size: 0.93em;
 }
 
-.flink-list>.flink-list-item a {
+.flink-list > .flink-list-item a {
   color: var(--star-fontcolor);
   text-decoration: none;
 }
@@ -336,7 +344,7 @@ const datas: any = [{
 }
 
 /* 友情描述 */
-.flink-list>.flink-list-item a .flink-item-desc {
+.flink-list > .flink-list-item a .flink-item-desc {
   white-space: normal;
   padding: 5px 10px 16px 0;
   color: var(--star-fontcolor);
@@ -350,7 +358,7 @@ const datas: any = [{
   -webkit-line-clamp: 2;
 }
 
-.flink-list>.flink-list-item:hover a .flink-item-desc {
+.flink-list > .flink-list-item:hover a .flink-item-desc {
   color: var(--star-white);
 }
 
@@ -367,18 +375,18 @@ const datas: any = [{
   min-width: calc(100% - 20px);
 }
 
-.flink-list>.flink-list-item a .flink-item-name {
+.flink-list > .flink-list-item a .flink-item-name {
   text-align: left;
   font-size: 19px;
   line-height: 20px;
   color: var(--star-fontcolor);
 }
 
-.flink-list>.flink-list-item:hover a .flink-item-name {
+.flink-list > .flink-list-item:hover a .flink-item-name {
   color: var(--star-white);
 }
 
-.flink-list>.flink-list-item a {
+.flink-list > .flink-list-item a {
   display: flex;
   border: none;
   width: 100%;
@@ -386,7 +394,7 @@ const datas: any = [{
   align-items: center;
 }
 
-.flink-list>.flink-list-item a:hover {
+.flink-list > .flink-list-item a:hover {
   background: none;
 }
 
@@ -407,7 +415,7 @@ img {
   object-fit: cover;
 }
 
-.flink-list>.flink-list-item a img {
+.flink-list > .flink-list-item a img {
   float: left;
   margin: 15px 10px;
   width: 60px;
@@ -417,7 +425,7 @@ img {
 }
 
 /* 友链头像 */
-.flink-list>.flink-list-item a img {
+.flink-list > .flink-list-item a img {
   border-radius: 32px;
   margin: 15px 20px 15px 15px;
   transition: 0.3s;
@@ -427,9 +435,8 @@ img {
 }
 
 
-
 /* 悬浮状态头像 */
-.flink-list>.flink-list-item:hover a img {
+.flink-list > .flink-list-item:hover a img {
   transition: 0.6s;
   width: 0;
   height: 0;
@@ -466,31 +473,31 @@ img {
 }
 
 @media screen and (max-width: 1200px) {
-  .flink#article-container .flink-list>.flink-list-item {
+  .flink#article-container .flink-list > .flink-list-item {
     width: calc(25% - 12px) !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .flink#article-container .flink-list>.flink-list-item {
+  .flink#article-container .flink-list > .flink-list-item {
     width: calc(33.3333% - 12px) !important;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .flink#article-container .flink-list>.flink-list-item {
+  .flink#article-container .flink-list > .flink-list-item {
     width: calc(50% - 12px) !important;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .flink#article-container .flink-list>.flink-list-item {
+  .flink#article-container .flink-list > .flink-list-item {
     width: calc(100% - 12px) !important;
   }
 }
 
 /* 修改初始动画 */
-.flink#article-container .flink-list>.flink-list-item {
+.flink#article-container .flink-list > .flink-list-item {
   margin: 6px 6px;
   transition: 0.3s;
   border-radius: 12px;
@@ -503,7 +510,7 @@ img {
   display: flex;
 }
 
-.flink#article-container .flink-list>.flink-list-item {
+.flink#article-container .flink-list > .flink-list-item {
   position: relative;
   float: left;
   overflow: hidden;
@@ -517,7 +524,7 @@ img {
 }
 
 /* 修改初始动画 */
-.flink#article-container .flink-list>.flink-list-item {
+.flink#article-container .flink-list > .flink-list-item {
   margin: 6px 6px;
   transition: 0.3s;
   border-radius: 12px;
@@ -530,7 +537,7 @@ img {
   display: flex;
 }
 
-.flink#article-container .flink-list>.flink-list-item:hover {
+.flink#article-container .flink-list > .flink-list-item:hover {
   transform: scale(1);
   background: var(--star-theme);
   border: var(--style-border-hover);
@@ -593,7 +600,7 @@ img {
   color: rgb(255, 87, 34);
 }
 
-.flink-list>.flink-list-item:hover {
+.flink-list > .flink-list-item:hover {
   transform: scale(1);
   background: var(--star-theme);
   border: var(--style-border-hover);
@@ -776,7 +783,6 @@ img {
   border: none;
   padding: 0 !important;
 }
-
 
 
 /* 头像 */
