@@ -52,7 +52,7 @@ const datas: any = [{
             link: 'https://www.midjourney.com'
         },
         {
-            icon: 'https://www.mindmaster.io/images/static/logo-edraw-mindmaster.svg',
+            icon: 'https://neveragain.allstatics.com/2019/assets/icon/logo/edraw-mindmaster-horizontal-white.svg',
             title: '亿图思维',
             link: 'https://www.mindmaster.io/',
             desc: '可以免费试用'
