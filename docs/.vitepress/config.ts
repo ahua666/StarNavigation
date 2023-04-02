@@ -10,6 +10,9 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
   },
+  head:[
+    ['link', { rel: 'icon', href: 'https://blog.ahuaaa.cn/img/favicon.ico' }]
+  ],
   themeConfig: {
     logo: "/logo.png",
     siteTitle: "Star导航",
