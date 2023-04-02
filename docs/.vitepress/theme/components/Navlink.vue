@@ -91,12 +91,12 @@ const datas: any = [{
     title: 'WEB网页设计',
     desc: '灵感酷站',
     items: [{
-        icon: 'http://map.s-jl.com/wp-content/uploads/2020/08/sdcnav-8-1.png',
+        icon: 'https://pngimg.com/uploads/pinterest/pinterest_PNG63.png',
         title: 'Pinterest',
         desc: 'Pintester 国外图片资源',
         link: 'https://www.pinterest.com/'
     },{
-        icon:'http://map.s-jl.com/wp-content/uploads/2020/08/sdcnav-4-1.png',
+        icon:'https://tse4-mm.cn.bing.net/th/id/OIP-C.RLVRjameUVvXbSNFl5xXKwHaHa?pid=ImgDet&rs=1',
         title: 'Dribbble',
         link: 'https://dribbble.com/',
         desc: '设计师必备站点，国内顶尖的设计师都在上面',
