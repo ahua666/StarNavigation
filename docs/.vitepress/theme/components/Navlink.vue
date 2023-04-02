@@ -77,7 +77,37 @@ const datas: any = [{
         title: 'github',
         desc: '一个面向开源及私有软件项目的托管平台',
         link: 'https://github.com/'
-    },]
+    }, {
+        icon: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
+        title: 'Stack Overflow',
+        desc: '全球最大的技术问答网站',
+        link: 'https://stackoverflow.com'
+    },
+        {
+            title: '稀土掘金',
+            icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png',
+            desc: '面向全球中文开发者的技术内容分享与交流平台',
+            link: 'https://juejin.cn'
+        },
+        {
+            title: 'SegmentFault 思否',
+            icon: 'https://static.segmentfault.com/main_site_next/0dc4bace/touch-icon.png',
+            desc: '技术问答开发者社区',
+            link: 'https://segmentfault.com'
+        },
+        {
+            title: '博客园',
+            // icon: 'https://common.cnblogs.com/favicon.ico',
+            icon: 'https://ts4.cn.mm.bing.net/th?id=ODLS.c8870dec-a17f-476f-ad66-f13612a6fe85&w=32&h=32&o=6&pid=13.1',
+            desc: '博客园是一个面向开发者的知识分享社区',
+            link: 'https://www.cnblogs.com'
+        },
+        {
+            title: '知乎',
+            icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
+            desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
+            link: 'https://juejin.cn'
+        }]
 }, {
     title: '设计工具',
     desc: '收录的设计工具',
@@ -87,7 +117,7 @@ const datas: any = [{
         desc: '同时创造，即时设计',
         link: 'https://js.design/'
     }]
-},{
+}, {
     title: 'WEB网页设计',
     desc: '灵感酷站',
     items: [{
@@ -95,23 +125,23 @@ const datas: any = [{
         title: 'Pinterest',
         desc: 'Pintester 国外图片资源',
         link: 'https://www.pinterest.com/'
-    },{
-        icon:'https://tse4-mm.cn.bing.net/th/id/OIP-C.RLVRjameUVvXbSNFl5xXKwHaHa?pid=ImgDet&rs=1',
+    }, {
+        icon: 'https://tse4-mm.cn.bing.net/th/id/OIP-C.RLVRjameUVvXbSNFl5xXKwHaHa?pid=ImgDet&rs=1',
         title: 'Dribbble',
         link: 'https://dribbble.com/',
         desc: '设计师必备站点，国内顶尖的设计师都在上面',
-    },{
-        icon:'https://xcx.bigbigwork.com/pimg/favicon.ico',
+    }, {
+        icon: 'https://xcx.bigbigwork.com/pimg/favicon.ico',
         title: '大作',
         desc: ' 国内图片资源',
-        link:'https://bigbigwork.com/'
-    },{
-        icon:'https://www.instructables.com/assets/img/siteassets/apple-touch-icon-192x192.png',
+        link: 'https://bigbigwork.com/'
+    }, {
+        icon: 'https://www.instructables.com/assets/img/siteassets/apple-touch-icon-192x192.png',
         title: 'instructables',
-        link:'https://www.instructables.com/',
+        link: 'https://www.instructables.com/',
         desc: '电子电气作品',
     }]
-} ,{
+}, {
     title: 'Vue 生态',
     desc: '一系列支持库和工具，可帮助开发者更快速、高效地构建现代化的Vue应用程序。',
     items: [
