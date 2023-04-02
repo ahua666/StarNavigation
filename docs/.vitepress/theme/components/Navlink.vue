@@ -12,7 +12,8 @@
                         :src="item2.icon"
                         alt="chatGPT"
                         class="flink-avatar entered loaded"
-                        data-ll-status="loaded" onerror="this.onerror=null;this.src='https://bu.dusays.com/2023/03/03/6401a7902b8de.png'">
+                        data-ll-status="loaded"
+                        onerror="this.onerror=null;this.src='https://bu.dusays.com/2023/03/03/6401a7902b8de.png'">
                     <div class="img-alt is-center">{{ item2.title }}</div>
                     <div class="flink-item-info"><span class="flink-item-name">{{ item2.title }}</span><span
                             :title="item2.desc" class="flink-item-desc">{{ item2.desc }}</span></div>
@@ -61,9 +62,56 @@ const datas: any = [{
             icon: 'https://global-uploads.webflow.com/59deb588800ae30001ec19c9/5d4891e0e260e3c1bc37b100_beautiful%20ai%20favicon%20%20blue%20square.png',
             title: 'Beautiful.ai（PPT）',
             link: 'https://www.beautiful.ai'
+        }, {
+            title: 'AI工具集',
+            icon: 'https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-app-logo.png',
+            link: 'https://ai-bot.cn/',
+            desc: '国内外AI工具集合网站大全'
         }
     ]
 }, {
+    title: '社区',
+    desc: '开发者社区',
+    items: [{
+        icon: 'https://ts3.cn.mm.bing.net/th?id=Aed3c79c5ea4781db45fd44d7e804b5ae&w=148&h=148&o=6&dpr=1.3&pid=SANGAM',
+        title: 'github',
+        desc: '一个面向开源及私有软件项目的托管平台',
+        link: 'https://github.com/'
+    },]
+}, {
+    title: '设计工具',
+    desc: '收录的设计工具',
+    items: [{
+        icon: 'https://img.js.design/assets/webImg/favicon.ico',
+        title: '即时设计',
+        desc: '同时创造，即时设计',
+        link: 'https://js.design/'
+    }]
+},{
+    title: 'WEB网页设计',
+    desc: '灵感酷站',
+    items: [{
+        icon: 'http://map.s-jl.com/wp-content/uploads/2020/08/sdcnav-8-1.png',
+        title: 'Pinterest',
+        desc: 'Pintester 国外图片资源',
+        link: 'https://www.pinterest.com/'
+    },{
+        icon:'http://map.s-jl.com/wp-content/uploads/2020/08/sdcnav-4-1.png',
+        title: 'Dribbble',
+        link: 'https://dribbble.com/',
+        desc: '设计师必备站点，国内顶尖的设计师都在上面',
+    },{
+        icon:'https://xcx.bigbigwork.com/pimg/favicon.ico',
+        title: '大作',
+        desc: ' 国内图片资源',
+        link:'https://bigbigwork.com/'
+    },{
+        icon:'https://www.instructables.com/assets/img/siteassets/apple-touch-icon-192x192.png',
+        title: 'instructables',
+        link:'https://www.instructables.com/',
+        desc: '电子电气作品',
+    }]
+} ,{
     title: 'Vue 生态',
     desc: '一系列支持库和工具，可帮助开发者更快速、高效地构建现代化的Vue应用程序。',
     items: [
