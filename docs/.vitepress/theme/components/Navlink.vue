@@ -64,7 +64,7 @@ const datas: any = [{
       link: 'https://www.beautiful.ai'
     }, {
       title: 'AI工具集',
-      icon: 'https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-app-logo.png',
+      icon: 'https://ai-bot.cn/wp-content/uploads/2023/07/ai-bot-favicon.png',
       link: 'https://ai-bot.cn/',
       desc: '国内外AI工具集合网站大全'
     }
